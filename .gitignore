@@ -213,3 +213,13 @@ temp/
 # Dataset folders (if you keep raw data in the repo folder)
 data/
 datasets/
+# Ignore common large files/folders inside ASR
+ASR/data/
+ASR/checkpoints/
+ASR/logs/
+ASR/temp/
+ASR/*.pt
+ASR/*.ckpt
+ASR/*.wav
+ASR/*.flac
+

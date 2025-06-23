@@ -192,3 +192,24 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Large audio files
+*.wav
+*.mp3
+*.flac
+
+# Model checkpoints and weights
+*.pt
+*.ckpt
+*.bin
+
+# Logs and temporary files
+logs/
+log/
+*.log
+tmp/
+temp/
+
+# Dataset folders (if you keep raw data in the repo folder)
+data/
+datasets/
